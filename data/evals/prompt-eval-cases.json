@@ -1,0 +1,68 @@
+[
+  {
+    "id": "case-bi-analyst",
+    "title": "BI Analyst",
+    "company": "Northwind Insights",
+    "city": "Berlin",
+    "jobDescription": "We are hiring a Full-time BI Analyst in Berlin. Required skills: SQL, Power BI, Excel. You should have 2+ years of experience and strong English communication. Salary range: EUR 55,000 - 68,000 per year.",
+    "expected": {
+      "requiredSkills": ["SQL", "Power BI", "Excel"],
+      "yearsExperienceIncludes": "2+ years",
+      "employmentType": "Full-time",
+      "languages": ["English"]
+    },
+    "cvText": "Data analyst with 3 years of experience using SQL, Power BI and Excel dashboards. Worked in English-speaking teams and delivered weekly KPI reports.",
+    "expectedMatch": {
+      "minScore": 65
+    }
+  },
+  {
+    "id": "case-working-student",
+    "title": "Working Student Data Science",
+    "company": "City Mobility Labs",
+    "city": "Munich",
+    "jobDescription": "Join us as a Working student in Data Science. Skills needed: Python, pandas, Git. German (C1) and English (B2) required. Part-time contract.",
+    "expected": {
+      "requiredSkills": ["Python", "Git"],
+      "employmentType": "Working student",
+      "languages": ["German", "English"]
+    },
+    "cvText": "Computer science student with project work in Python and Git. Built notebooks with pandas and collaborated in German and English.",
+    "expectedMatch": {
+      "minScore": 55
+    }
+  },
+  {
+    "id": "case-german-hourly",
+    "title": "Entwickler",
+    "company": "Tech Startup Berlin",
+    "city": "Berlin",
+    "jobDescription": "Wir suchen einen Entwickler. Spanne 15.00 EUR brutto pro Stunde. So arbeiten wir zusammen: Wir sind ein kleines Unternehmen und probieren gerne neue Dinge aus. Benötigte Fähigkeiten: JavaScript, Python.",
+    "expected": {
+      "wage": "15",
+      "wageContains": "per hour"
+    },
+    "cvText": "Experienced developer with 5 years using JavaScript and Python.",
+    "expectedMatch": {
+      "minScore": 50
+    }
+  },
+  {
+    "id": "case-deutsch-studentenjob",
+    "title": "Studentische Hilfskraft für Schuldigitalisierung",
+    "company": "Digitale Bildungslösungen GmbH",
+    "city": "Frankfurt",
+    "jobDescription": "Sie sind aktuell in einem Universitäts- oder (Fach-)Hochschul-Studium immatrikuliert, idealerweise in den Fächern (Wirtschafts- oder Medien-) Informatik oder in einem Lehramts-/Pädagogikstudium. Sie besitzen erste Erfahrungen im Bereich Software Support oder Kundenservice. Sie haben Interesse an Digitalisierungsthemen und dem Bildungsbereich. Sie haben Erfahrung im Umgang mit gängigen Projektmanagement- und Kommunikations-Tools wie beispielsweise Jira, Confluence und Slack. Gute Deutschkenntnisse in Wort und Schrift (mindestens auf dem Niveau C1 des Europäischen Referenzrahmens für Sprachen). Sie besitzen eine lösungsorientierte Denkweise. Ca. 10 bis 20 Wochenstunden. Befristung zunächst bis zum 30.09.2026. Eine angemessene Vergütung (17,50 Euro / Stunde). Finanzielle Unterstützung bei der Nutzung des Wellpass und dem Bezug eines studentischen Ermäßigungsticket für den ÖPNV (Deutschlandticket).",
+    "expected": {
+      "requiredSkills": ["Jira", "Confluence", "Slack", "Kundenservice"],
+      "employmentType": "Working student",
+      "languages": ["German"],
+      "wageContains": "per hour",
+      "wageIncludes": "17.50"
+    },
+    "cvText": "IT student with experience in software support and customer service. Proficient in Jira, Confluence, and Slack. Fluent in German (C1 level).",
+    "expectedMatch": {
+      "minScore": 60
+    }
+  }
+]

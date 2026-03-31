@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: jobsleuth-ai
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PORT
+        value: 10000
+      - key: OLLAMA_ENABLED
+        value: "false"
