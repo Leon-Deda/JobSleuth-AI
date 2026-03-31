@@ -203,7 +203,9 @@ Contributions welcome! Fork and submit pull requests.
 
 ## License
 
-ISC
+MIT License — See [LICENSE](./LICENSE) file for details.
+
+This project is open-source and free to use, modify, and distribute.
 
 ## Author
 
