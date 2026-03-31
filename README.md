@@ -207,4 +207,4 @@ This project is open-source and free to use, modify, and distribute.
 
 ## Author
 
-León Deda (@Leon-Deda)
+Leon Deda (@Leon-Deda)
