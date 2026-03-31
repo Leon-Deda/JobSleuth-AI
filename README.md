@@ -197,9 +197,7 @@ Two modes:
 - [ ] Integration with job boards (auto-apply)
 - [ ] Mobile app (React Native)
 
-## Contributing
 
-Contributions welcome! Fork and submit pull requests.
 
 ## License
 
